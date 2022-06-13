@@ -4,7 +4,7 @@ const numeroTitulo = document.getElementById('numero-titulo'); // documento sele
 
 const texto = document.getElementById('numerosGerais');
 
-numeroTitulo.innerHTML = numero;
+numeroTitulo.innerHTML = numero; // innerHTML eu estou manipulando o HTML sendo assim ira aparecer lá na tela.
 texto.innerHTML = " ";
 texto.innerHTML += `Raiz quadrada: ${Math.sqrt(numero)}`;
 texto.innerHTML += `<br/><br/>${numero} é inteiro: ${Number.isInteger(numero)}`;
