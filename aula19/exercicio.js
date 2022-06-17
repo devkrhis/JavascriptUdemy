@@ -4,14 +4,14 @@ function meuEscopo (){
 
     const pessoas = [];
 
-    function recebeEventoForm(evento){
+    function recebeEventoForm(evento){ // aqui eu criei uma function e peguei os valores do html
         evento.preventDefault();
         const nome = form.querySelector('.nome');
         const sobrenome = form.querySelector('.sobrenome');
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
 
-        pessoas.push({
+        pessoas.push({ // dessa forma eu criei um novo objeto
             nome: nome.value,
             sobrenome: sobrenome.value,
             peso: peso.value,
@@ -20,7 +20,7 @@ function meuEscopo (){
 
         console.log(pessoas)
 
-        resultado.innerHTML += 
+        resultado.innerHTML += // estou devolvendo para o html o valor.
         `<p>
         ${nome.value} 
         ${sobrenome.value} 
