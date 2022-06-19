@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Lorem ipsum, dolor sit amet </h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa praesentium adipisci ipsum, quisquam
+            eum expedita iste, voluptatibus similique quod ipsam? Culpa eveniet totam expedita corrupti quam atque
+            ducimus adipisci.
+        </p>
+
+
+        <h2> Classificação de IMC </h2>
+        <table>
+            <p>Menos de 18,5        Peso baixo</p>
+            <p>Entre 18,5 e 24,9    Peso normal ou adequado</p>
+            <p>Entre 25,0 e 29,9    Sobrepeso</p>
+            <p>Entre 30,0 e 34,9    Obesidade Grau I</p>
+            <p>Entre 35 e 39,9      Obesidade Grau II</p>
+            <p>Maior que 40         Obesidade Grau III ou Mórbida</p>
+        </table>
+
+        <h2> Calcule seu IMC </h2>
+        <form action="/" id="formulario" method="post">
+        <label for="peso" id="peso" name="peso"> Peso: </label>
+        <input type="text" class="peso">
+        
+        <label for="altura" id="altura" name="altura"> Altura: </label>
+        <input type="text" class="peso">
+        <button type="submit">Calcular</button>
+        </form>
+        
+        <div id="resultado"></div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
