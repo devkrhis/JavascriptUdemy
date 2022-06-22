@@ -6,7 +6,7 @@
 console.log(soma(2,2)) // aqui estou passando os 2 valores da função e chamando a função.
 */
 
-const raiz = function(n) { // aqui eu declaro uma variavel e uma função, e quando vou chamar eu chamo o nome da variavel
+const raiz = function(n) { // aqui eu declaro uma variavel e uma função, e quando vou chamar, eu chamo o nome da variavel
     return n ** 0.5;
 
 };
