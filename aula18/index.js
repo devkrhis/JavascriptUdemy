@@ -23,12 +23,16 @@ console.log(pessoa1.idade)
 // criando uma function com objetos:
 
 function criaPessoa (nome, sobrenome, idade){
-    return { // dessa forma estou criando o objeto
+    return { // dessa forma estou criando o objeto 
         nome: nome,
         sobrenome: sobrenome,
         idade: idade,
     };
 }
+
+// function criaPessoa(nome, sobrenome, idade) {
+//    return {nome, sobrenome, idade} -> Posso criar desta forma também o objeto.
+// }
 
 const pessoa2 = criaPessoa('Luiz', 'Otávio', 25)//criando os argumentos que são ('Luiz', 'Otávio', '25) para passar para a o parametro que são o (nome, sobrenome, idade).
 
