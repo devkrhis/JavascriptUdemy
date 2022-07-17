@@ -15,11 +15,11 @@ function retonaHora(data){
         data = new Date();
     }
 
-    return data.toLocaleTimeString('pt-BR',{
-        hour: '2-digit',
+    return data.toLocaleTimeString('pt-BR',{ // aqui é pra ser no horario pt-br
+        hour: '2-digit', // aqui é para ser apenas 2 digitos
         minute: '2-digit',
         second: '2-digit',
-        hour12: false
+        hour12: false // aqui é pra não ser um horario de 24 horas e sim de 12
     });
 }
 
